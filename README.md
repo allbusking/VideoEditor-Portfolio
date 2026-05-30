@@ -15,25 +15,6 @@ This project demonstrates a cinematic web portfolio with interactive video conte
 - Shared cinema modal for video playback controls
 - Smooth scrolling, scroll progress indicator, and reveal animations
 
-## Getting started
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
 
 ## Project structure
 
@@ -44,6 +25,4 @@ npm run build
 
 ## Notes
 
-- The featured section now uses the same cinema player behavior as the work cards.
-- Clicking the featured play button opens a fullscreen modal with playback controls.
 - This is a single-page interactive portfolio, not a multi-route application.

@@ -1,16 +1,49 @@
-# React + Vite
+# CutNFlow Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite portfolio landing page for a video editor and storyteller.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates a cinematic web portfolio with interactive video content, custom cursor behavior, animated card hover effects, and a fullscreen cinema playback experience.
 
-## React Compiler
+## Key features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite
+- Custom cinematic styling and motion effects in `src/App.jsx`
+- Interactive work cards with hover tilt and fullscreen video playback
+- Featured section with looping background video and playable showreel
+- Shared cinema modal for video playback controls
+- Smooth scrolling, scroll progress indicator, and reveal animations
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Project structure
+
+- `src/App.jsx` — main application logic for all sections and interactions
+- `src/index.css` — base styling and layout resets
+- `src/App.css` — additional component and animation styles
+- `public/` — static assets for the app
+
+## Notes
+
+- The featured section now uses the same cinema player behavior as the work cards.
+- Clicking the featured play button opens a fullscreen modal with playback controls.
+- This is a single-page interactive portfolio, not a multi-route application.

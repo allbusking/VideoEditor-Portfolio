@@ -843,7 +843,7 @@ function Hero() {
         </p>
       </div>
       <div className="hero-bottom-bar">
-        <div style={{fontFamily:"var(--font-display)",fontSize:"clamp(32px,7vw,94px)",fontWeight:900,lineHeight:1,color:"transparent",WebkitTextStroke:"1px rgba(201,168,76,.18)",letterSpacing:-3,userSelect:"none"}}>K.Agarwalls</div>
+        <div style={{fontFamily:"var(--font-display)",fontSize:"clamp(32px,7vw,94px)",fontWeight:900,lineHeight:1,color:"transparent",WebkitTextStroke:"1px rgba(201,168,76,.18)",letterSpacing:-3,userSelect:"none"}}>K.Agarwal</div>
         <div ref={clapWrap} onClick={fireClap} style={{width:88,cursor:"none",filter:"drop-shadow(0 0 22px rgba(201,168,76,.22))",perspective:200}} data-cursor="CLAP">
           <div key={ck} className={`clap-top${ck>0?" clap-fire":""}`}>
             <div style={{position:"absolute",inset:0,background:"repeating-linear-gradient(-45deg,#1d1d1d 0px,#1d1d1d 7px,#c9a84c 7px,#c9a84c 11px)",opacity:.82}}/>
